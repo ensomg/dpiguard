@@ -1,0 +1,12 @@
+node_modules/
+dist/
+config.json
+build.log
+.DS_Store
+*.exe
+*.dll
+*.sys
+# Ancak bin klasöründeki gerekli dosyaları hariç tutabiliriz eğer istersen.
+# Şu an genel exe/dll'leri engelledim ama bin/ içindekileri yüklemek mantıklı olabilir.
+# Bin klasörünü yüklemek için aşağıdaki satırı yorum satırı yapabilirsin:
+# bin/
